@@ -1,0 +1,71 @@
+table {
+    font-family: arial;
+    background-image: linear-gradient(to right, snow, skyblue);
+    border-radius: 10px;
+}
+
+#kembali {
+    font-size: 16px;
+    font-weight: bold; /* Ubah ke "bold" atau nilai lain sesuai keinginan */
+    color: #fff;
+    display: block;
+    padding: 10px 15px;
+    background-color: #705eb8;
+    width: max-content;
+    border-radius: 10px; /* Anda dapat menyesuaikan nilai sesuai kebutuhan */
+    margin: auto;
+    text-align: center;
+    text-decoration: none; /* Hapus dekorasi teks pada tombol */
+}
+
+/* Mengubah tampilan tombol saat dihover */
+#kembali:hover {
+    background-color: #56d0ef; /* Warna latar belakang saat hover */
+    color: #fff; /* Warna teks saat hover */
+}
+
+a {
+    text-decoration: none;
+    /* letter-spacing: 5px; */
+    word-spacing: 5px;
+    align-content: center;
+    text-align: center;
+}
+
+body{
+    background-color: gray;
+}
+
+#submit {
+    font-size: 16px;
+    font-weight: bold; /* Ubah ke "bold" atau nilai lain sesuai keinginan */
+    color: #fff;
+    display: block;
+    padding: 10px 15px;
+    background-color: #705eb8;
+    width: max-content;
+    border-radius: 10px; /* Anda dapat menyesuaikan nilai sesuai kebutuhan */
+    margin: auto;
+    text-align: center;
+    text-decoration: none; /* Hapus dekorasi teks pada tombol */
+}
+
+/* Mengubah tampilan tombol saat dihover */
+#submit:hover {
+    background-color: #56d0ef; /* Warna latar belakang saat hover */
+    color: #fff; /* Warna teks saat hover */
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}

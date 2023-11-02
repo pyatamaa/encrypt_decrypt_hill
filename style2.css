@@ -1,0 +1,90 @@
+table {
+    font-family: arial;
+    background-image: linear-gradient(to right, snow, skyblue);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+}
+
+.action a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.action a:hover {
+    background-color: #45a049;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin: 2px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover {
+    background-color: #45a049;
+}
