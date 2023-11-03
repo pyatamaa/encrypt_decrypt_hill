@@ -1,20 +1,7 @@
 <?php
-// Informasi koneksi database
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "hill_cipher";
-
+require('koneksi.php');
 // Jumlah data yang akan ditampilkan per halaman
 $per_page = 5;
-
-// Membuat koneksi
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Memeriksa koneksi
-if ($conn->connect_error) {
-    die("Koneksi gagal: " . $conn->connect_error);
-}
 
 // Menghitung total jumlah data
 $total_rows_sql = "SELECT COUNT(*) as count FROM hasil_hill_cipher";
