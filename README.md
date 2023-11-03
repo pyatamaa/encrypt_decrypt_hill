@@ -1,4 +1,4 @@
-# encrypt_decrypt_hill
+# encrypt_decrypt_hill_cipher
 Program untuk enkripsi dan dekripsi menggunakan metode hill cipher
 
 # Tampilan untuk Halaman Home
